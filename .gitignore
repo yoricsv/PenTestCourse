@@ -1,0 +1,587 @@
+# MY OWN TEMPORARY AND SECRET DIRECTORIES
+*_old/
+.keys/
+.TEMPORARY/
+manual_build/
+tmp/
+HELP.md
+pwsh.md
+
+# REQUIRED DIRECTORIES (JAVA)
+!**/src/main/**/build/
+!**/src/main/**/target/
+!**/src/test/**/build/
+!**/src/test/**/target/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ansible
+*.retry
+
+# Artifact Package Files
+*.cab
+*.ear
+*.jar
+*.nar
+*.rar
+*.tar.gz
+*.war
+*.zip
+
+# AxoCover is a Code Coverage Tool
+.axoCover/*
+!.axoCover/settings.json
+
+# Azure Stream Analytics local run output
+ASALocalRun/
+
+# Backup & report files from converting an old project file
+# to a newer Visual Studio version. Backup files are not needed,
+# because we have git ;-)
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
+*.rptproj.bak
+
+# BeatPulse healthcheck temp database
+healthchecksdb
+
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
+# BizTalk build output
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+
+# BlueJ files
+*.ctxt
+
+# Build results
+[Bb]uild/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# Business Intelligence projects
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+*.rptproj.rsuser
+*- Backup*.rdl
+
+# Chutzpah Test files
+_Chutzpah*
+
+# Click-Once directory
+publish/
+
+# CLion setting folder
+.settings/
+
+# Cake - Uncomment if you are using it
+# tools/**
+# !tools/packages.config
+# CMake getnereted files and folderTEMPORARY
+cmake-build-debug/
+out-release/
+out/
+
+# CodeRush personal settings
+.cr/personal
+
+# Docker
+.env
+docker-compose.override.yml
+
+# DocProject is a documentation generator add-in
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Documentation cache and generated files
+/[._]yardoc/
+/doc/
+/rdoc/
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# Eclipse
+.externalToolBuilders/
+.recommenders/
+.settings/
+bin/
+.apt_generated
+.buildpath
+.classpath
+.cproject
+.factorypath
+.loadpath
+.metadata
+.project
+.recommenders
+.springBeans
+.sts4-cache
+.tern-project
+.texlipse
+*.bak
+*.launch
+*.pydevproject
+*.swp
+*.tmp
+*~.nib
+local.properties
+
+# Emacs
+/auto/
+/elpa/
+/eshell/
+/server/
+.cask/
+.\#*
+/.emacs.desktop
+/.emacs.desktop.lock
+.org-id-locations
+.projectile
+*.elc
+*.rel
+*_archive
+*_flymake.*
+auto-save-list
+flycheck_*.el
+tramp
+
+# Environment normalization
+.bundle/
+*vendor/bundle
+*lib/bundler/man/
+
+# FAKE - F# Make
+.fake/
+
+# GhostDoc plugin setting file
+*.GhostDoc.xml
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Guidance Automation Toolkit
+*.gpState
+
+# Installshield output folder
+[Ee]xpress/
+
+# Integration Tools
+/builds/
+/coverage/
+/InstalledFiles/
+.tmpatlas/
+/.config
+*.box
+*.variables.json
+crash.log
+custom.sh
+Makefile.local
+virtualfloppy.vfd
+!script/custom/.gitkeep
+
+# JetBrains IDEs (Covers: IntelliJ, PhpStorm, CLion and etc.)
+.idea_modules/
+.idea/
+.jpb/
+*.iml
+*.ipr
+*.iws
+*atlassian-ide-plugin.xml
+*com_crashlytics_export_strings.xml
+*crashlytics-build.properties
+*crashlytics.properties
+*fabric.properties
+*idea.key
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# JustCode is a .NET coding add-in
+.JustCode
+
+# Kafka
+conf/*.dev.conf
+
+# Kitchen
+.kitchen/
+.kitchen
+.kitchen.*.yml
+.kitchen.local.yml
+
+# Linux
+._*
+*~
+.apdisk
+.directory
+.DocumentRevisions-V100
+.fseventsd
+.fuse_hidden*
+.Spotlight-V100
+.TemporaryItems
+.Trash-*
+.Trashes
+.VolumeIcon.icns
+Temporary*
+
+# Local History for Visual Studio
+.localhistory/
+
+# Logs files 
+logs/
+*.log
+
+# MFractors (Xamarin productivity tool) working folder
+.mfractor/
+
+# Microsoft Azure Build Output
+csx/
+*.build.csdef
+# Microsoft Azure Web App publish settings. Comment the next line if you want to
+# checkin your Azure Web App publish settings, but sensitive information contained
+# in these scripts will be unencrypted
+PublishScripts/
+# Microsoft Azure Emulator
+ecf/
+rcf/
+# Microsoft Azure Web App Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+# Note: Comment the next line if you want to checkin your web deploy settings,
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
+*.publishproj
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# MightyMoose
+*.mm.*
+AutoTest.Net/
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# NetBeans
+.nb-gradle/
+dist/
+nbbuild/
+nbdist/
+nbproject/private/
+
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
+node_modules/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# NVidia Nsight GPU debugger configuration file
+*.nvuser
+
+# OpenCover UI analysis results
+OpenCover/
+
+# OS X
+*.DS_Store
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.LSOverride
+
+# Others
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+
+# Packer
+/packer-*/
+/pkg/
+/spec/
+/test/version_tmp/
+script/custom/*
+packer_cache
+packer.log
+
+# Paket dependency manager
+.paket/paket.exe
+paket-files/
+
+# PlantUML
+.vscode/
+*/compiled_dagrams/
+samples/
+src/eng/
+src/ru/
+src/samples/
+
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+# Note: Comment the next line if you want to checkin your web deploy settings,
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
+*.publishproj
+
+# Python Tools for Visual Studio (PTVS)
+__pycache__/
+*.pyc
+
+# RAD Studio setting folders
+__astcache/
+__history/
+__recovery/
+Debug_Build/
+Release_Build/
+
+# RAD Studio generated files
+*.~*
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Ruby
+build-iPhoneOS/
+build-iPhoneSimulator/
+.dat*
+.repl_history
+*.bridgesupport
+*.gem
+*.rbc
+Gemfile.lock
+
+# Sensei plugin for IntelliJ IDEA
+.sensei/
+
+# Spring boot
+.mvn/
+mvnw.*
+mvnw
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# StyleCop
+StyleCopReport.xml
+
+# Tabs Studio
+*.tss
+
+# Targets (compiled)
+.dist/
+.target/
+out/
+target/
+*.class
+output-*
+
+# Telerik's JustMock configuration file
+*.jmconfig
+
+# TFS 2012 Local Workspace
+$tf/
+
+# TeamCity is a build add-in
+_TeamCity*
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Vagrant
+.vagrant/
+download/
+.vagrantuser
+Customfile
+
+# Vim
+.netrwhist
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+auto-generated tag files
+session
+Session.vim
+swap
+tags
+temporary
+
+# Virtualbox Extensions
+*.vbox-extpack
+
+# Virtual Machine crash logs
+hs_err_pid*
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# VISUAL STUDIO
+# Visual Studio 6 build log
+*.plg
+# Visual Studio 6 workspace options file
+*.opt
+# Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
+*.vbw
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!?*.[Cc]ache/
+# Visual Studio Code coverage results
+*.coverage
+*.coveragexml
+# Visual Studio Code directory
+.vscode/
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+# Visual Studio 2017 auto generated files
+Generated\ Files/
+# Visual Studio generated files
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+# Visual Studio LightSwitch build output
+**/*.HTMLClient/GeneratedArtifacts
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.Server/GeneratedArtifacts
+**/*.Server/ModelManifest.xml
+_Pvt_Extensions
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+# Visual Studio Trace Files
+*.e2e
+
+# Web workbench (sass)
+.sass-cache/
+
+# Windows Store app package directories and files
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+
+# Windows System Files
+$RECYCLE.BIN/
+*.lnk
+*.msi
+*.msm
+*.msp
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+
+# WwwRoot static files (Uncomment if you have tasks that create the project's static files in wwwroot)
+#wwwroot/
